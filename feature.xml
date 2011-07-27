@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="feature.opensixen.client.core"
-      label="Core"
+      label="Opensixen Client Core"
       version="1.0.0.qualifier">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description url="http://www.opensixen.org">
+      Client main feature.
    </description>
 
    <copyright url="http://www.example.com/copyright">
