@@ -34,6 +34,8 @@
       <import plugin="org.eclipse.core.contenttype" version="3.3.0" match="compatible"/>
       <import plugin="org.eclipse.equinox.app" version="1.0.0" match="compatible"/>
       <import plugin="org.eclipse.equinox.registry" version="3.5.0" match="equivalent"/>
+      <import plugin="org.opensixen.core.p2" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi" version="3.6.0" match="greaterOrEqual"/>
       <import plugin="org.opensixen.riena" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.riena.communication.core" version="2.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.osgi" version="3.5.2" match="greaterOrEqual"/>
@@ -47,9 +49,42 @@
       <import plugin="org.eclipse.riena.core" version="2.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.riena.communication.core" version="1.1.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.osgi.services" version="3.2.0" match="greaterOrEqual"/>
-      <import plugin="org.apache.log4j"/>
       <import plugin="org.eclipse.core.runtime" version="3.3.0" match="compatible"/>
       <import plugin="javax.servlet" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.ds" version="1.2.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.touchpoint.eclipse" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.touchpoint.natives" version="1.0.200" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.core" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.operations" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.engine" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.metadata" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.repository" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.metadata.repository" version="1.1.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.net" version="1.2.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.metadata.repository" version="1.0.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.jobs" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.p2.repository" version="2.0.0" match="equivalent"/>
+      <import plugin="org.eclipse.equinox.p2.metadata" version="2.0.0" match="equivalent"/>
+      <import plugin="org.eclipse.equinox.p2.core" version="2.0.0" match="equivalent"/>
+      <import plugin="org.eclipse.equinox.p2.core" version="2.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.common" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.jobs" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.registry" version="3.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ecf.provider.filetransfer" version="3.0.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ecf.filetransfer" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.common" version="3.3.0" match="compatible"/>
+      <import plugin="org.sat4j.core" version="2.2.0" match="equivalent"/>
+      <import plugin="org.sat4j.pb" version="2.2.0" match="equivalent"/>
+      <import plugin="org.eclipse.core.jobs" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.p2.metadata" version="2.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.common" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.common" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.security" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.preferences" version="3.2.200" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.registry" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.common" version="3.3.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin
@@ -475,6 +510,41 @@
 
    <plugin
          id="org.eclipse.equinox.frameworkadmin.equinox"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.net"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.publisher"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.artifact.repository"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.jarprocessor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.concurrent"
          download-size="0"
          install-size="0"
          version="0.0.0"
