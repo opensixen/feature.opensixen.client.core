@@ -16,6 +16,10 @@
       [Enter License Description here.]
    </license>
 
+   <includes
+         id="org.eclipse.equinox.executable"
+         version="0.0.0"/>
+
    <requires>
       <import plugin="org.opensixen.libs" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="org.opensixen.base" version="1.0.0" match="greaterOrEqual"/>
